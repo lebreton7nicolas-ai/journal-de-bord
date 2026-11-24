@@ -1,0 +1,9 @@
+| Outil | Adresse de téléchargement | Version installée | Options choisies pendant l'installation | Commande ou geste de vérification | Problème rencontré et solution |
+|---|---|---|---|---|---|
+Google Chrome|Définir comme navigateur par défaut dans paramètres|157.0.8103.79|||aucun|
+|Git|git-scm.com|2.56.1. Win|Version pour Windows; Bash en complétant l'assistant de configuration; Intégration à Windows Explorer; , création d'un nom et d'un email : git config --global user.name "Prénom Nom" et git config --global user.email "email"; création d'un alias d'historique visuel : bash git config --global alias.lg "log --oneline --graph --decorate --all"; vérifier l'alias : git lg;  choix de tous les composants d'installation; installer les extensions sur Chrome : Web Developer, CSS Viewer, ColorZilla, Window resizer, React Developer Tools, Json Viewer >> Chrome Web store|contrôle de l'extenstion dans Visual Studio Code; contrôle de la version dans le Bash taper la commande git -v. Installer clé SSH : taper bash ssh-keygen -t ed25519 -C "votre_email@exemple.com" et appuyer sur Entrée pour valider les clés privé et publique; vérifier clé : cat ~/.ssh/id_ed25519.pub; aller dans GitHub est copié la clé publique dans Setting >> SSH and Keys |Pas de problèmes|
+|Visual Studio Code|code.visualstudio.com|1.47.0.X64|Cocher toutes les cases de la fenêtre Tâches supplémentaires|vérification version dans le bash taper commande code -v; contrôle de l'installation des extensions : French Language Pack; Live Server; Prettier; ESLint;EditorConfig; Error Lens; Markdown All in One|faire attention au choix des extensions; téléchargement en mode admin|
+|Node JS|nodejs.org|V26.13.1|version LTS avec npm|vérification si npm est installé dans le bash node -v puis npm -v|téléchargement en mode admin|
+User name : Nicolas LEBRETON
+email : DWWM01.M09@afpar.com
+alias git : hist
